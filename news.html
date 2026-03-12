@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<title>Новости — WayStar Group</title>
+<meta name="description" content="Новости компании и публикации.">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0B1F3A" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/style.css" />
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script defer src="js/main.js"></script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-shell">
+    <a href="index.html" class="brand" aria-label="WayStar Group">
+      <img src="images/logo-mark.svg" alt="WayStar Group" width="48" height="48">
+      <span class="brand__text">
+        <strong>WayStar Group</strong>
+        <em>Транспортно-экспедиторская компания</em>
+      </span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Основная навигация">
+      
+<a href="index.html">Главная</a>
+<a href="about.html">О компании</a>
+<a href="services.html">Услуги</a>
+<a href="news.html">Новости</a>
+<a href="partners.html">Партнёры</a>
+<a href="contacts.html">Контакты</a>
+
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+77759399845">+7 775 939 98 45</a>
+      <a class="btn btn--sm btn--solid" href="contacts.html#contact-form">Оставить заявку</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu__inner">
+    <div class="mobile-menu__top">
+      <a href="index.html" class="brand brand--mobile" aria-label="WayStar Group">
+        <img src="images/logo-mark.svg" alt="WayStar Group" width="42" height="42">
+        <span class="brand__text">
+          <strong>WayStar Group</strong>
+          <em>Логистика по всему миру</em>
+        </span>
+      </a>
+      <button class="mobile-menu__close" type="button" aria-label="Закрыть меню">×</button>
+    </div>
+    <nav class="mobile-nav" aria-label="Мобильная навигация">
+      
+<a href="index.html">Главная</a>
+<a href="about.html">О компании</a>
+<a href="services.html">Услуги</a>
+<a href="news.html">Новости</a>
+<a href="partners.html">Партнёры</a>
+<a href="contacts.html">Контакты</a>
+
+    </nav>
+    <div class="mobile-menu__contacts">
+      <a href="tel:+77759399845">+7 775 939 98 45</a>
+      <a href="mailto:info@waystarco.com">info@waystarco.com</a>
+      <p>г. Астана, БЦ "Abu Dhabi Plaza", Блок А, этаж 11, офис 1107</p>
+    </div>
+  </div>
+</div>
+
+
+<main>
+  <section class="page-hero" style="--hero-bg:url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80')">
+    <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Главная</a> / <span>Новости</span></div>
+      <h1>Новости компании</h1>
+      <p>Раздел спроектирован под список новостей, отдельные публикации, дату и изображения — именно так, как это указано в техническом задании.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cards-grid">
+        
+        <article class="news-card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80" alt="Новое направление поставок для промышленных грузов" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span>Новости компании</span><span>12.02.2026</span></div>
+            <h3 class="card-title">Новое направление поставок для промышленных грузов</h3>
+            <p class="card-text">WayStar Group расширяет пул маршрутов и усиливает логистику в направлениях Казахстан — Китай — Европа.</p>
+            <a class="card-link" href="article.html">Читать статью</a>
+          </div>
+        </article>
+        <article class="news-card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80" alt="Как мы подбираем оптимальный маршрут под задачу клиента" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span>Новости компании</span><span>28.01.2026</span></div>
+            <h3 class="card-title">Как мы подбираем оптимальный маршрут под задачу клиента</h3>
+            <p class="card-text">Рассказываем, как команда WayStar Group сочетает сроки, стоимость, тип груза и географию доставки.</p>
+            <a class="card-link" href="article.html">Читать статью</a>
+          </div>
+        </article>
+        <article class="news-card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80" alt="Контроль сроков и прозрачность на каждом этапе поставки" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span>Новости компании</span><span>16.01.2026</span></div>
+            <h3 class="card-title">Контроль сроков и прозрачность на каждом этапе поставки</h3>
+            <p class="card-text">В проектной логистике важны предсказуемость и управление рисками — делимся нашим подходом.</p>
+            <a class="card-link" href="article.html">Читать статью</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand brand--footer">
+        <img src="images/logo-mark.svg" alt="WayStar Group" width="48" height="48">
+        <span class="brand__text">
+          <strong>WayStar Group</strong>
+          <em>Транспортно-экспедиторская компания</em>
+        </span>
+      </a>
+      <p>Комплексные решения по организации грузоперевозок любыми видами транспорта по всему миру.</p>
+    </div>
+
+    <div>
+      <h3>Навигация</h3>
+      <ul class="footer-list">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="partners.html">Партнёры</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Услуги</h3>
+      <ul class="footer-list">
+        <li><a href="service-single.html">Железнодорожные перевозки</a></li>
+        <li><a href="service-single.html">Мультимодальные перевозки</a></li>
+        <li><a href="service-single.html">Автомобильные перевозки</a></li>
+        <li><a href="service-single.html">Авиаперевозки</a></li>
+        <li><a href="service-single.html">Перевозки негабаритной техники</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Контакты</h3>
+      <ul class="footer-list footer-list--contacts">
+        <li>г. Астана, БЦ "Abu Dhabi Plaza", Блок А, этаж 11, офис 1107</li>
+        <li><a href="tel:+77759399845">+7 775 939 98 45</a></li>
+        <li><a href="mailto:info@waystarco.com">info@waystarco.com</a></li>
+        <li class="socials">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 WayStar Group. Все права защищены.</span>
+    <span>Редизайн-концепт front-end версии</span>
+  </div>
+</footer>
+
+<a class="mobile-cta" href="contacts.html#contact-form">Получить консультацию</a>
+
+</body>
+</html>

@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<title>WayStar Group — редизайн корпоративного сайта</title>
+<meta name="description" content="Комплексные решения по организации грузоперевозок любыми видами транспорта по всему миру.">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0B1F3A" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/style.css" />
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script defer src="js/main.js"></script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-shell">
+    <a href="index.html" class="brand" aria-label="WayStar Group">
+      <img src="images/logo-mark.svg" alt="WayStar Group" width="48" height="48">
+      <span class="brand__text">
+        <strong>WayStar Group</strong>
+        <em>Транспортно-экспедиторская компания</em>
+      </span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Основная навигация">
+      
+<a href="index.html">Главная</a>
+<a href="about.html">О компании</a>
+<a href="services.html">Услуги</a>
+<a href="news.html">Новости</a>
+<a href="partners.html">Партнёры</a>
+<a href="contacts.html">Контакты</a>
+
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+77759399845">+7 775 939 98 45</a>
+      <a class="btn btn--sm btn--solid" href="contacts.html#contact-form">Оставить заявку</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu__inner">
+    <div class="mobile-menu__top">
+      <a href="index.html" class="brand brand--mobile" aria-label="WayStar Group">
+        <img src="images/logo-mark.svg" alt="WayStar Group" width="42" height="42">
+        <span class="brand__text">
+          <strong>WayStar Group</strong>
+          <em>Логистика по всему миру</em>
+        </span>
+      </a>
+      <button class="mobile-menu__close" type="button" aria-label="Закрыть меню">×</button>
+    </div>
+    <nav class="mobile-nav" aria-label="Мобильная навигация">
+      
+<a href="index.html">Главная</a>
+<a href="about.html">О компании</a>
+<a href="services.html">Услуги</a>
+<a href="news.html">Новости</a>
+<a href="partners.html">Партнёры</a>
+<a href="contacts.html">Контакты</a>
+
+    </nav>
+    <div class="mobile-menu__contacts">
+      <a href="tel:+77759399845">+7 775 939 98 45</a>
+      <a href="mailto:info@waystarco.com">info@waystarco.com</a>
+      <p>г. Астана, БЦ "Abu Dhabi Plaza", Блок А, этаж 11, офис 1107</p>
+    </div>
+  </div>
+</div>
+
+
+<main>
+  <section class="hero">
+    <div class="container hero__grid">
+      <div>
+        <span class="eyebrow">WayStar Group • логистика нового уровня</span>
+        <h1 data-parallax>Грузоперевозки для бизнеса любыми видами транспорта по всему миру</h1>
+        <p>Организуем доставку под ключ — от выбора оптимального вида транспорта до прибытия груза точно в срок. Усилили подачу, сохранив позиционирование и ключевые смыслы компании.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="contacts.html#contact-form">Получить консультацию</a>
+          <a class="btn btn--ghost" href="services.html">Смотреть услуги</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero-stat reveal"><strong data-count="10">10</strong><span>лет экспертизы в транспортной логистике</span></div>
+          <div class="hero-stat reveal"><strong data-count="6">6</strong><span>ключевых направлений перевозок и сервиса</span></div>
+          <div class="hero-stat reveal"><strong data-count="24">24</strong><span>/7 контроль этапов поставки и связи с клиентом</span></div>
+        </div>
+      </div>
+      <aside class="hero__card reveal">
+        <h3>Что получает клиент</h3>
+        <ul class="check-list">
+          <li>Подбор маршрута и вида транспорта под конкретный груз</li>
+          <li>Прозрачные процессы, отчётность и контроль сроков</li>
+          <li>Доступ к ж/д, авто, морским и авиационным маршрутам</li>
+          <li>Команду с опытом работы в транспортной логистике более 10 лет</li>
+        </ul>
+        <div class="hero-card__footer">
+          <small>Астана • Казахстан • международные маршруты</small>
+          <a class="card-link" href="about.html">О компании</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Rail Logistics</span><span>Road Freight</span><span>Sea Freight</span><span>Air Freight</span><span>Project Cargo</span><span>Rail Logistics</span><span>Road Freight</span><span>Sea Freight</span><span>Air Freight</span><span>Project Cargo</span>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <p class="card-kicker">Преимущества</p>
+          <h2 class="section__title">Почему выбирают нас</h2>
+        </div>
+        <p class="section__desc">Смысловой блок сохранён из текущего сайта, но подан как современная витрина сильных сторон: route engineering, прозрачные процессы, собственный подвижной состав и индивидуальный подход к задаче клиента.</p>
+      </div>
+      <div class="grid-advantages">
+        <article class="adv-card reveal"><div class="adv-card__icon"><img src="images/icon-multi.svg" alt=""></div><h3>Гибкие решения</h3><p>Ж/д, авто, море, авиа — подберём лучший маршрут под ваш груз и задачи по срокам.</p></article>
+        <article class="adv-card reveal"><div class="adv-card__icon"><img src="images/icon-rail.svg" alt=""></div><h3>Любой тип подвижного состава</h3><p>Цистерны, крытые, полувагоны, зерновозы — под любые типы грузов и специфику отгрузки.</p></article>
+        <article class="adv-card reveal"><div class="adv-card__icon"><img src="images/icon-truck.svg" alt=""></div><h3>Гибкая логистика</h3><p>Организуем перевозку в любую точку Республики Казахстана и за рубеж, комбинируя каналы доставки.</p></article>
+        <article class="adv-card reveal"><div class="adv-card__icon"><img src="images/icon-heavy.svg" alt=""></div><h3>Индивидуальный подход</h3><p>Учитываем особенности каждого клиента, груза, маршрута и требований к безопасности.</p></article>
+        <article class="adv-card reveal"><div class="adv-card__icon"><img src="images/icon-sea.svg" alt=""></div><h3>Прозрачные процессы</h3><p>Полная отчётность на каждом этапе, регулярный контакт и контроль соблюдения сроков.</p></article>
+        <article class="adv-card reveal"><div class="adv-card__icon"><img src="images/icon-air.svg" alt=""></div><h3>Профессиональная команда</h3><p>Специалисты, работающие в сфере транспортной логистики более 10 лет.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface">
+    <div class="container about-split">
+      <div class="about-panel reveal">
+        <p class="card-kicker">О компании</p>
+        <h2 class="section__title">ТОО «WayStar Group»</h2>
+        <p>WayStar Group — логистическая компания, предоставляющая комплексные решения по организации грузоперевозок любыми видами транспорта по всему миру. Мы переработали этот раздел в формат, который выглядит сильнее на десктопе, планшете и мобильных устройствах.</p>
+        <div class="feature-list">
+          <div class="feature-box"><h3>Наша цель</h3><p>Обеспечивать клиентам надёжные, эффективные и комплексные логистические решения по всему миру.</p></div>
+          <div class="feature-box"><h3>В нашем распоряжении</h3><p>Широкий выбор вагонов, цистерн, контейнеров и автотранспорта, а также доступ к партнёрским маршрутам.</p></div>
+          <div class="feature-box"><h3>Формат работы</h3><p>Полное сопровождение сделки: от выбора канала доставки до прибытия груза в срок.</p></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="photo-card">
+          <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1400&q=80" alt="Логистический терминал" loading="lazy">
+          <div class="photo-card__badge">
+            <div>
+              <strong>Международная логистика</strong>
+              <span>Казахстан • СНГ • Китай • Европа • Прибалтика</span>
+            </div>
+            <a class="btn btn--light btn--sm" href="about.html">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top:26px">
+      <div class="kpi-grid">
+        <div class="kpi reveal"><strong data-count="6">6</strong><span>направлений услуг и перевозок</span></div>
+        <div class="kpi reveal"><strong data-count="100">100</strong><span>% внимание к срокам, рискам и прозрачности процессов</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="career-band reveal">
+        <div>
+          <p class="card-kicker" style="background:rgba(255,255,255,.14);color:#fff">Карьера в WayStar Group</p>
+          <h2 class="section__title" style="color:#fff">Команда, которая двигает сложные поставки вперёд</h2>
+          <p>По логике подачи мы ориентировались на эмоциональную и крупную секционную подачу наподобие Rhino Group, но сохранили корпоративную строгость и фокус на логистике. Блок карьеры стал сильным, современным и живым.</p>
+          <a class="btn btn--light" href="contacts.html">Обсудить сотрудничество</a>
+        </div>
+        <div class="career-list">
+          <div class="career-pill">Экспертная команда и внутренняя координация</div>
+          <div class="career-pill">Проектный подход к сложным маршрутам</div>
+          <div class="career-pill">Рост вместе с международными кейсами</div>
+          <div class="career-pill">Высокие стандарты качества и коммуникации</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <p class="card-kicker">Услуги</p>
+          <h2 class="section__title">Услуги, которые мы предоставляем</h2>
+        </div>
+        <p class="section__desc">Список услуг сохранён по смыслу с текущего сайта WayStar Group: железнодорожные, автомобильные, авиационные, мультимодальные перевозки, собственный подвижной состав и доставка негабаритной техники. citeturn289509view0</p>
+      </div>
+      <div class="swiper-shell">
+        <div class="swiper" data-slider="services-home">
+          <div class="swiper-wrapper">
+            
+        <article class="service-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80" alt="Железнодорожные перевозки" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-kicker">01</span>
+            <h3 class="card-title">Железнодорожные перевозки</h3>
+            <p class="card-text">Организуем ж/д перевозки по Казахстану, СНГ, Китаю и Прибалтике. Подбираем оптимальные вагоны-цистерны, крытые, полувагоны и зерновозы, обеспечивая точную и безопасную доставку.</p>
+            <a class="card-link" href="service-single.html">Подробнее</a>
+          </div>
+        </article>
+        
+
+        <article class="service-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80" alt="Собственный подвижной состав" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-kicker">02</span>
+            <h3 class="card-title">Собственный подвижной состав</h3>
+            <p class="card-text">WSG располагает собственными цистернами, зерновозами и крытыми вагонами. Подвижной состав доступен для аренды и технических рейсов по территории СНГ, стран Балтии, Финляндии и Средней Азии.</p>
+            <a class="card-link" href="service-single.html">Подробнее</a>
+          </div>
+        </article>
+        
+
+        <article class="service-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80" alt="Мультимодальные перевозки" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-kicker">03</span>
+            <h3 class="card-title">Мультимодальные перевозки</h3>
+            <p class="card-text">Объединяем ж/д, авто, морской и авиационный транспорт для удобства и сокращения сроков. Доставляем FCL и LCL грузы в крупнейшие порты Китая, Юго-Восточной Азии, Европы и Африки.</p>
+            <a class="card-link" href="service-single.html">Подробнее</a>
+          </div>
+        </article>
+        
+
+        <article class="service-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80" alt="Автомобильные перевозки" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-kicker">04</span>
+            <h3 class="card-title">Автомобильные перевозки</h3>
+            <p class="card-text">Организуем авто-доставку по Казахстану, СНГ, Европе и странам Прибалтики. Работаем с полными и сборными грузами в партнёрстве с надёжными перевозчиками.</p>
+            <a class="card-link" href="service-single.html">Подробнее</a>
+          </div>
+        </article>
+        
+
+        <article class="service-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=80" alt="Авиаперевозки" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-kicker">05</span>
+            <h3 class="card-title">Авиаперевозки</h3>
+            <p class="card-text">Отправляем грузы по международным авиамаршрутам, обеспечивая высокую скорость, надёжность и контроль сроков. Используем сеть хабов для консолидации и выбора эффективного маршрута.</p>
+            <a class="card-link" href="service-single.html">Подробнее</a>
+          </div>
+        </article>
+        
+
+        <article class="service-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1519003300449-424ad0405076?auto=format&fit=crop&w=1200&q=80" alt="Перевозки негабаритной техники" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-kicker">06</span>
+            <h3 class="card-title">Перевозки негабаритной техники</h3>
+            <p class="card-text">Организуем доставку тяжёлых и негабаритных грузов по Казахстану, СНГ, Китаю и Прибалтике. Подбираем оптимальный вид транспорта с учётом параметров груза и требований клиента.</p>
+            <a class="card-link" href="service-single.html">Подробнее</a>
+          </div>
+        </article>
+        
+          </div>
+        </div>
+        <div class="slider-arrows">
+          <button class="slider-arrow slider-arrow--light" data-prev="services-home" aria-label="Предыдущий слайд">←</button>
+          <button class="slider-arrow slider-arrow--light" data-next="services-home" aria-label="Следующий слайд">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <p class="card-kicker">Новости</p>
+          <h2 class="section__title">Последние материалы и обновления</h2>
+        </div>
+        <p class="section__desc">В ТЗ предусмотрены список новостей, отдельная страница новости и дата публикации. Здесь заложена именно такая структура, чтобы потом было легко привязать CMS или административную панель.</p>
+      </div>
+      <div class="swiper-shell">
+        <div class="swiper" data-slider="news-home">
+          <div class="swiper-wrapper">
+            
+        <article class="news-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80" alt="Новое направление поставок для промышленных грузов" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span>Новости компании</span><span>12.02.2026</span></div>
+            <h3 class="card-title">Новое направление поставок для промышленных грузов</h3>
+            <p class="card-text">WayStar Group расширяет пул маршрутов и усиливает логистику в направлениях Казахстан — Китай — Европа.</p>
+            <a class="card-link" href="article.html">Читать материал</a>
+          </div>
+        </article>
+        
+
+        <article class="news-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80" alt="Как мы подбираем оптимальный маршрут под задачу клиента" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span>Новости компании</span><span>28.01.2026</span></div>
+            <h3 class="card-title">Как мы подбираем оптимальный маршрут под задачу клиента</h3>
+            <p class="card-text">Рассказываем, как команда WayStar Group сочетает сроки, стоимость, тип груза и географию доставки.</p>
+            <a class="card-link" href="article.html">Читать материал</a>
+          </div>
+        </article>
+        
+
+        <article class="news-card swiper-slide reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80" alt="Контроль сроков и прозрачность на каждом этапе поставки" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span>Новости компании</span><span>16.01.2026</span></div>
+            <h3 class="card-title">Контроль сроков и прозрачность на каждом этапе поставки</h3>
+            <p class="card-text">В проектной логистике важны предсказуемость и управление рисками — делимся нашим подходом.</p>
+            <a class="card-link" href="article.html">Читать материал</a>
+          </div>
+        </article>
+        
+          </div>
+        </div>
+        <div class="slider-arrows">
+          <button class="slider-arrow slider-arrow--light" data-prev="news-home" aria-label="Предыдущая новость">←</button>
+          <button class="slider-arrow slider-arrow--light" data-next="news-home" aria-label="Следующая новость">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <p class="card-kicker">Партнёры</p>
+          <h2 class="section__title">Доверие проверенных компаний</h2>
+        </div>
+        <p class="section__desc">На текущем сайте WayStar Group этот раздел подан как логотипы партнёров и короткий тезис о сотрудничестве с ведущими предприятиями Казахстана. Мы сохранили это направление и усилили его визуально. citeturn289509view0</p>
+      </div>
+      <div class="logo-cloud">
+        <div class="logo-item reveal">KZM<span>industrial</span></div>
+        <div class="logo-item reveal">Agro<span>export</span></div>
+        <div class="logo-item reveal">Energy<span>projects</span></div>
+        <div class="logo-item reveal">Metal<span>logistics</span></div>
+        <div class="logo-item reveal">Global<span>supply</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface">
+    <div class="container contact-band">
+      <div class="contact-panel reveal">
+        <p class="card-kicker">Контакты</p>
+        <h2 class="section__title">Свяжитесь с нами</h2>
+        <div class="contact-list">
+          <div class="contact-item"><span>Контактный номер</span><a class="contact-link" href="tel:+77759399845">+7 775 939 98 45</a></div>
+          <div class="contact-item"><span>E-mail</span><a class="contact-link" href="mailto:info@waystarco.com">info@waystarco.com</a></div>
+          <div class="contact-item"><span>Адрес</span><strong>г. Астана, БЦ "Abu Dhabi Plaza", Блок А, этаж 11, офис 1107</strong></div>
+        </div>
+        <div class="contact-map">
+          <div>
+            <strong>Abu Dhabi Plaza</strong>
+            <p style="margin:.35rem 0 0;color:rgba(255,255,255,.78)">Подготовленный блок карты и контактов для последующей интеграции со встроенной картой и CRM-формой.</p>
+          </div>
+        </div>
+      </div>
+      <div class="form-panel reveal">
+        <p class="card-kicker">Оставить заявку</p>
+        <h2 class="section__title">Расскажите о задаче</h2>
+        <form id="contact-form">
+          <div class="form-grid">
+            <div class="field"><label for="name">Имя</label><input id="name" name="name" type="text" placeholder="Ваше имя"></div>
+            <div class="field"><label for="phone">Телефон</label><input id="phone" name="phone" type="tel" placeholder="+7 ___ ___ __ __"></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="name@company.com"></div>
+            <div class="field"><label for="company">Компания</label><input id="company" name="company" type="text" placeholder="Название компании"></div>
+            <div class="field field--full"><label for="message">Сообщение</label><textarea id="message" name="message" placeholder="Опишите груз, направление, сроки и пожелания"></textarea></div>
+          </div>
+          <div style="margin-top:18px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+            <button class="btn btn--solid" type="submit">Отправить заявку</button>
+            <span class="form-note">Форма подготовлена для отправки на электронную почту компании после backend-интеграции.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand brand--footer">
+        <img src="images/logo-mark.svg" alt="WayStar Group" width="48" height="48">
+        <span class="brand__text">
+          <strong>WayStar Group</strong>
+          <em>Транспортно-экспедиторская компания</em>
+        </span>
+      </a>
+      <p>Комплексные решения по организации грузоперевозок любыми видами транспорта по всему миру.</p>
+    </div>
+
+    <div>
+      <h3>Навигация</h3>
+      <ul class="footer-list">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="partners.html">Партнёры</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Услуги</h3>
+      <ul class="footer-list">
+        <li><a href="service-single.html">Железнодорожные перевозки</a></li>
+        <li><a href="service-single.html">Мультимодальные перевозки</a></li>
+        <li><a href="service-single.html">Автомобильные перевозки</a></li>
+        <li><a href="service-single.html">Авиаперевозки</a></li>
+        <li><a href="service-single.html">Перевозки негабаритной техники</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Контакты</h3>
+      <ul class="footer-list footer-list--contacts">
+        <li>г. Астана, БЦ "Abu Dhabi Plaza", Блок А, этаж 11, офис 1107</li>
+        <li><a href="tel:+77759399845">+7 775 939 98 45</a></li>
+        <li><a href="mailto:info@waystarco.com">info@waystarco.com</a></li>
+        <li class="socials">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 WayStar Group. Все права защищены.</span>
+    <span>Редизайн-концепт front-end версии</span>
+  </div>
+</footer>
+
+<a class="mobile-cta" href="contacts.html#contact-form">Получить консультацию</a>
+
+</body>
+</html>
